@@ -14,3 +14,5 @@ first spike project, first day at MK
 Tests are located in `test/**` and are powered by [ava](https://github.com/sindresorhus/ava)
 - `npm install` to ensure devDeps are installed
 - `npm test` to run test suite
+
+line added by avram
