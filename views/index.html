@@ -6,7 +6,20 @@
     <h2>Hello World Modified by Avram Wednesday afternoon 13:12 </h2>
     <p>Thanks for using <a href='https://github.com/static-dev/spike'>spike</a></p>
     <p>Example of locals: {{ foo + " " + (1 / 6)}}</p>
-    <p mdi> Example of **markdown**</p>
+
+    <ul>
+        <each loop='item of items'>
+          <li>{{ item.name + " static word" }}</li>
+        </each>
+      </ul>
+
+
+    <h1>conditional</h1>
+    <if condition="1+1 === 2">
+        <p>environment is {{ environment }}</p>
+    </if>
+
+    <p md> Example of **markdown** here is a [link to my website](http://adka.org)</p>
     <p>Example of "smart quotes" -- and dashes</p>
 
     <hr>

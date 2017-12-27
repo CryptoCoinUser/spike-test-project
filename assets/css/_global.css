@@ -1,5 +1,24 @@
+:root{
+
+  --myColor: rgb(17, 160, 255);
+  --defaultFontSize: 1em;
+}
+
 body {
   padding: 50px;
   font-family: system-ui;
   background-color: #ccc;
+
+}
+
+
+#index {
+  color: var(--myColor);
+
+  & h1 {
+    font-size: calc(var(--defaultFontSize) * 10);
+    @media (max-width: 500px) {
+      font-size: 12px;
+    }
+  }
 }
