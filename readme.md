@@ -15,4 +15,4 @@ Tests are located in `test/**` and are powered by [ava](https://github.com/sindr
 - `npm install` to ensure devDeps are installed
 - `npm test` to run test suite
 
-line added by avram
+line added and edited by avram
