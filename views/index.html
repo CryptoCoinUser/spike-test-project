@@ -1,10 +1,17 @@
-<extends src='layout.html'>
+<extends src='layout.sgr'>
+    <block name='title'>
+        <title>Title customized in index.html name=title block</title>
+    </block>
   <block name='content'>
-    <h2>Hello World Modified by Avram Wednesday</h2>
+    <h2>Hello World Modified by Avram Wednesday afternoon 13:12</h2>
     <p>Thanks for using <a href='https://github.com/static-dev/spike'>spike</a></p>
     <p>Example of locals: {{ foo }}</p>
     <p mdi> Example of **markdown**</p>
     <p>Example of "smart quotes" -- and dashes</p>
+
+    <hr>
+
+    <include src='partial.sgr'></include>
 
     <hr>
 
